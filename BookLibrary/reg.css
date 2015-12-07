@@ -1,0 +1,41 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    background-color: BlanchedAlmond;
+    margin:200px;
+}
+.main {
+    background-color: #FFF;
+    width: 1000px;
+    height:570px;
+    margin:0 auto;
+    padding:20px;
+}
+.title {
+    color: #000;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+
+}
+
+.text{
+    text-align:center;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.kn{
+    
+    margin: auto;
+    
+    
+}
+    
+
+.content{
+    height: 300px;
+
+}
