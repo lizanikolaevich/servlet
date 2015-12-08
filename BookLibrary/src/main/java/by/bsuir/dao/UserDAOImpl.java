@@ -10,6 +10,14 @@ import java.sql.SQLException;
 
 public class UserDAOImpl implements UserDAO {
 
+    // Test code for db connection.
+    //public static void main ( String [] args) {
+    //    User user = new User(1, 1, "login", "password");
+    //    UserDAOImpl userDAOImpl = new UserDAOImpl();
+    //    userDAOImpl.add(user);
+    //    System.out.println(user.getId());
+    //}
+
     public void add(User user){
         try(Connection connection = DatabaseManager.getConnection();
             PreparedStatement statement = connection.prepareStatement(
