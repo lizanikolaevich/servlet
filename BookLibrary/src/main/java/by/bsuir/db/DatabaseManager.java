@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DatabaseManager {
-    private static final String URL = "jdbc:mariadb://localhost:3306/BookLibrary";
+    private static final String URL = "jdbc:mysql://localhost:3306/BookLibrary";
     private static final String USERNAME = "admin";
     private static final String PASSWORD = "root";
 
