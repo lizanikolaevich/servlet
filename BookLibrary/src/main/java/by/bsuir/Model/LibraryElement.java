@@ -6,14 +6,14 @@
 package by.bsuir.Model;
 
 
-public class B_elem {
+public class LibraryElement {
 
     private int id;
     private int data_post;
     private int shifr;
     private String name;
 
-    public B_elem(int id, int data_post, int shifr, String name){
+    public LibraryElement(int id, int data_post, int shifr, String name){
         this.id = id;
         this.data_post = data_post;
         this.shifr = shifr;
@@ -42,9 +42,10 @@ public class B_elem {
     }
 
     public void setId(int id){
+
         this.id = id;
     }
-        public String getName(){
+    public String getName(){
         return this.name;
     }
 

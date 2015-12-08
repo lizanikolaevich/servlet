@@ -6,7 +6,7 @@
 package by.bsuir.Model;
 
 
-public class Journal extends P_iz{
+public class Journal extends PrintPublication{
     
     private String tema;
     private String period;

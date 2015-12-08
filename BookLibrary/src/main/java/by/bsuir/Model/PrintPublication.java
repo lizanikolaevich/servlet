@@ -5,17 +5,17 @@
  */
 package by.bsuir.Model;
 
-public class P_iz extends B_elem{
+public class PrintPublication extends LibraryElement{
     
     
     private String poublisher;
     private int count_page;
 
-    public P_iz(int id, int data_post, int count,String name) {
+    public PrintPublication(int id, int data_post, int count,String name) {
         super(id, data_post, count,name);
     }
 
-    public void P_iz(String name, String poublisher, int count_page){
+    public void PrintPublication(String name, String poublisher, int count_page){
         this.poublisher = poublisher;
         this.count_page = count_page;
 }

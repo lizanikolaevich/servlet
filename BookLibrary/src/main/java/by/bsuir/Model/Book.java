@@ -9,7 +9,7 @@ package by.bsuir.Model;
  *
  * @author user
  */
-public class Book extends P_iz{
+public class Book extends PrintPublication{
     
     private String autor;
     private String genre;
